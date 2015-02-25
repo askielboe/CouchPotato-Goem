@@ -18,7 +18,7 @@ class Base(TorrentProvider):
         'base_url': 'http://goem.org',
         'login': 'http://goem.org/takelogin.php',
         'login_check': 'http://goem.org/my.php',
-        'search': 'http://goem.org/browse.php?search=%s&stype=2&cat=0',
+        'search': 'http://goem.org/browse.php?search=%s&s_type=2&cat=0',
     }
 
     def _find_quality_params(self, quality_id):
